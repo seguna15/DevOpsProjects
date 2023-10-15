@@ -99,3 +99,9 @@ docker build -t flask-app .
 ```sh
 docker run -it -p 8080:8080 -d flask-app
 ```
+
+12.RUN the following command
+
+```sh
+curl http://127.0.0.1:8080
+```
