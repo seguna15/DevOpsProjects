@@ -8,6 +8,6 @@ RUN npm ci
 
 COPY ./src ./src
 
-CMD ["npm", "start"]
+# to run container with nodemon CMD ["npm", "run" , "dev"]
 
-
+CMD ["npm", "start" ]

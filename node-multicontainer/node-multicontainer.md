@@ -93,3 +93,15 @@ Content-Type: application/json
 
 GET http://localhost:3000/products
 ```
+
+8.Run this command to stop and remove all containers associated with the service
+
+```sh
+docker compose down
+```
+
+9.Run this command to rebuild the container if you have made changes
+
+```sh
+docker compose build
+```

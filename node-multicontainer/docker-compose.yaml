@@ -6,6 +6,9 @@ services:
     container_name: db_container
     image: mongo:latest
     restart: always
+    #to map this to our local machine if we want to check in mongodb compass or mongosh
+    ports:
+      - 2717:27017
     volumes:
       - mongo_db:/data/db
   #Node API service
@@ -13,6 +16,9 @@ services:
     build: .
     ports:
       - 3000:3000
+    # to run container in dev mode map th host path to the container path
+    volumes:
+      - .:/usr/src/app
     environment:
       PORT: 3000
       MONGODB_URI: mongodb://mongo_db:27017/my_db
