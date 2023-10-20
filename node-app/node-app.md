@@ -1,6 +1,6 @@
 # How to create and dockerize a node js application
 
-1. Create your node-app directory and the src directory inside your node-app
+1.Create your node-app directory and the src directory inside your node-app
 
 ```sh
 mkdir -p node-app/src
