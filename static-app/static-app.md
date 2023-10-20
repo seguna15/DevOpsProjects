@@ -36,3 +36,18 @@ services:
     volumes:
       - ./src:/usr/share/nginx/html
 ```
+
+6.run this command in your terminal to build the docker-container
+
+```sh
+docker compose up
+```
+
+7.get the list of running containers
+
+```sh
+docker ps
+```
+8.paste this url in your browser
+
+[http://localhost:8000](http://0.0.0.0:8000)
