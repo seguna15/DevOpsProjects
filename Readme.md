@@ -6,4 +6,4 @@
 
 ## 3. Dockerize static website and run Nginx using docker compose [static-app .md file](./static-app/static-app.md)
 
-## 4. Run multi-container node, express and mongodb app using docker compose [node-multi-container .md file](./node-multicontainer-app/node-multicontainer.md)
+## 4. Run multi-container node, express and mongodb app using docker compose [node-multi-container .md file](./node-multicontainer/node-multicontainer.md)
